@@ -28,6 +28,11 @@ This is a first-party library that mostly deals with shaders and textures.
 
 The PMAA file format covers many different extensions such as `.baglenv` and `.bagldof`.
 
+## CAS
+This is a first-party library that implements an animation system.
+
+* [BAEV files (binary animation events)](libs/cas/baev.md)
+
 ## GFD
 This is a tiny Wii U library that loads textures and shaders from gtx/gsh files.
 * [Gfx2 files (shaders and textures)](libs/gfd/gfx2.md)
@@ -86,8 +91,16 @@ The libraries use [AAL](#aal) and [nw::eft / nn::vfx](#nw) internally.
 
 XLINK files have the file extension `.bslnk` or `.belnk`.
 
+## Nintendo Switch
+* [BDF files (TLS certificates)](libs/switch/bdf.md)
+* [IMKV files (key-value databases)](libs/switch/imkv.md)
+* [NAX0 files (SD card encryption)](libs/switch/nax0.md)
+* [NSO0 files (executables)](libs/switch/nso0.md)
+* [System save data](libs/switch/systemsave.md)
+
 ## Animal Crossing: New Horizons {#acnh}
 * [BCSV files](games/acnh/bcsv.md)
+* [Save data](games/acnh/savedata.md)
 
 ## Donkey Kong Country: Tropical Freeze (Wii U) {#dkctf}
 * [PAK files (archives)](games/dkctf/pak.md)
@@ -112,10 +125,18 @@ XLINK files have the file extension `.bslnk` or `.belnk`.
 * [Challenge info](games/nsmbu/challenges.md)
 * [Save data (rp_savedata.dat)](games/nsmbu/savedata.md)
 
+## Super Mario Maker {#smm}
+* [Level files](games/smm/level.md)
+* [Save data (save.dat)](games/smm/savedata.md)
+
 ## Super Mario Maker 2 {#smm2}
 * [Level files](games/smm2/level.md)
 * [Ninji ghost files](games/smm2/ghost.md)
+* [Save data](games/smm2/savedata.md)
 
 ## SNES - Nintendo Switch Online {#snes-nso}
 * [ROM files](games/snes-nso/rom.md)
 * [Break files](games/snes-nso/break.md)
+
+## Xenoblade Chronicles 2 {#xc2}
+* [Audio files](games/xc2/audio.md)
