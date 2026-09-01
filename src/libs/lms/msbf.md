@@ -87,7 +87,7 @@ The node identifier allows a game to link the node to a specific action or condi
 ### Jump Node
 | Offset | Size | Description |
 | --- | --- | --- |
-| 0x0 | 2 | Flowchart ID |
+| 0x0 | 2 | [Entry node](#entry-node) ID |
 | 0x2 | 2 | Unknown value |
 | 0x4 | 4 | Unused |
 
