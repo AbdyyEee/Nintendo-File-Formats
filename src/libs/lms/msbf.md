@@ -41,7 +41,7 @@ Actions defined within the FLW3 Section are done via nodes.
 | 5 | [Jump](#jump-node) | Jumps  to a different flowchart |
 
 #### Parameter Types
-The parameter type determines how the 4 byte parameter data will be parsed by the game. Once the data has been interpreted, the values obtained are passed to the node as arguments.
+The parameter type determines how the 4 byte parameter data will be parsed by the game. Once the data has been interpreted, the values obtained are passed to the node as arguments. 
 
 | Value | Arguments |
 | --- | --- |
@@ -88,7 +88,8 @@ The node identifier allows a game to link the node to a specific action or condi
 | Offset | Size | Description |
 | --- | --- | --- |
 | 0x0 | 2 | Flowchart index |
-| 0x2 | 6 | Unused |
+| 0x2 | 2 | Unknown Value |
+| 0x4 | 4 | Unused |
 
 The next node index when marked as `0xFFFF` is the end of a flowchart unless it is a branch node. The next node for a jump node must refer to the index of the entry node for another flowchart.
 
