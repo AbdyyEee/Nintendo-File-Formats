@@ -65,7 +65,7 @@ The parameter type determines how the 4 byte parameter data will be parsed by th
 | Offset | Size | Description |
 | --- | --- | --- |
 | 0x0 | 2 | `-1`|
-| 0x2 | 2 | Node Identifier |
+| 0x2 | 2 | Condition Identifier |
 | 0x4 | 2 | Branch table case count |
 | 0x6 | 2 | Starting index into the branch table |
 
@@ -73,7 +73,7 @@ The parameter type determines how the 4 byte parameter data will be parsed by th
 | Offset | Size | Description |
 | --- | --- | --- |
 | 0x0 | 2 | Next node index |
-| 0x2 | 2 | Node identifier |
+| 0x2 | 2 | Action identifier |
 | 0x4 | 4 | Unused |
 
 The node identifier allows a game to link the node to a specific action or condition.
