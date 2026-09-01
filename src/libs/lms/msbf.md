@@ -88,7 +88,7 @@ The node identifier allows a game to link the node to a specific action or condi
 | Offset | Size | Description |
 | --- | --- | --- |
 | 0x0 | 2 | Flowchart index |
-| 0x2 | 2 | Unknown Value |
+| 0x2 | 2 | Unknown value |
 | 0x4 | 4 | Unused |
 
 The next node index when marked as `-1` is the end of a flowchart unless it is a branch node. The next node for a jump node must refer to the index of the entry node for another flowchart.
