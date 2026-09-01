@@ -56,7 +56,7 @@ The parameter type determines how the 4 byte parameter data will be parsed by th
 ### Message Node
 | Offset | Size | Description |
 | --- | --- | --- |
-| 0x0 | 2 | Next node index |
+| 0x0 | 2 | Next node ID |
 | 0x2 | 2 | [MSBT](msbt.md) file index |
 | 0x4 | 2 | Message index into [TXT2](msbt.md#txt2-block) |
 | 0x6 | 2 | Unused |
@@ -65,14 +65,14 @@ The parameter type determines how the 4 byte parameter data will be parsed by th
 | Offset | Size | Description |
 | --- | --- | --- |
 | 0x0 | 2 | `-1`|
-| 0x2 | 2 | Condition Identifier |
+| 0x2 | 2 | Condition identifier |
 | 0x4 | 2 | Branch table case count |
 | 0x6 | 2 | Starting index into the branch table |
 
 ### Event Node
 | Offset | Size | Description |
 | --- | --- | --- |
-| 0x0 | 2 | Next node index |
+| 0x0 | 2 | Next node ID |
 | 0x2 | 2 | Action identifier |
 | 0x4 | 4 | Unused |
 
@@ -81,13 +81,13 @@ The node identifier allows a game to link the node to a specific action or condi
 ### Entry Node
 | Offset | Size | Description |
 | --- | --- | --- |
-| 0x0 | 2 | Next node index |
+| 0x0 | 2 | Next node ID |
 | 0x2 | 6 | Unused |
 
 ### Jump Node
 | Offset | Size | Description |
 | --- | --- | --- |
-| 0x0 | 2 | Flowchart index |
+| 0x0 | 2 | Flowchart ID |
 | 0x2 | 2 | Unknown value |
 | 0x4 | 4 | Unused |
 
