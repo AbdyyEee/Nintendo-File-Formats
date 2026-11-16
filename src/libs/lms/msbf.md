@@ -63,7 +63,7 @@ The parameter type determines how the 4 byte parameter data will be parsed by th
 | 0x4 | 2 | Message index into [TXT2](msbt.md#txt2-block) |
 | 0x6 | 2 | Unused |
 
-The MSBT file index refers to a file in the [CTI1](msbp.md#cti1-block) block of an [MSBP](msbp.md) or a game-specific mapping.
+The MSBT file ID refers to a file in the [CTI1](msbp.md#cti1-block) block of an [MSBP](msbp.md) or a game-specific mapping.
 
 ### Branch Node 
 | Offset | Size | Description |
