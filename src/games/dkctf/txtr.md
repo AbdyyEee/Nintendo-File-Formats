@@ -7,6 +7,8 @@ Meta data: [NTextureFormat::SMetaData](#ntextureformatsmetadata)
 | [CFormDescriptor] | Form descriptor |
 
 ## TXTR Form
+Version: 14
+
 | Type | Description |
 | --- | --- |
 | [CChunkDescriptor] | HEAD chunk ([NTextureFormat::STextureHeader](#ntextureformatstextureheader)) |
@@ -28,7 +30,7 @@ Meta data: [NTextureFormat::SMetaData](#ntextureformatsmetadata)
 #### NTextureFormat::STextureSamplerData
 | Type | Description |
 | --- | --- |
-| Uint32 | Flags (always 0) |
+| Uint32 | Flags |
 | Uint8 | [Texture filter](enums.md#texture-filter) |
 | Uint8 | [Texture wrap (x)](enums.md#texture-wrap) |
 | Uint8 | [Texture wrap (y)](enums.md#texture-wrap) |
@@ -101,6 +103,8 @@ Meta data: [NTextureFormat::SMetaData](#ntextureformatsmetadata)
 | Uint32 | Decompressed size |
 | Uint32 | Compressed size |
 | Uint32 | Offset |
+
+Texture data is compressed with LZSS.
 
 [List]: types.md#list
 [CFormDescriptor]: types.md#cformdescriptor
