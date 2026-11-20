@@ -175,7 +175,7 @@ This block defines enum member names for tag parameters.
 This block contains [labels](overview.md#hash-tables) for the SYL3 block.
 
 ## CTI1 Block
-This block contains the names of the source files that the [MSBT](msbt.md) and [MSBF](msbf.md) files were generated from. The source files often have the `.mstxt` or `.msflw` extension.
+This block contains the names of the source files that the [MSBT](msbt.md) and [MSBF](msbf.md) files were generated from. The source files often have the `.mstxt` or `.msflow` extension.
 
 | Offset | Size | Description |
 | --- | --- | --- |
